@@ -3,6 +3,7 @@
 [![Documentation](https://img.shields.io/badge/Documentation-SmartJoint-blue)](./docs/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19609558.svg)](https://doi.org/10.5281/zenodo.19609558)
 [![AI Assistance](https://img.shields.io/badge/AI%20Assistance-DeepSeek-brightgreen)](https://deepseek.com)
+[![ES](https://img.shields.io/badge/Spanish-version-green.svg)](./README.md)
 # SmartJoint: Direct drive intelligent joint
 
 **Autonomous module for robotics, prosthetics and exoskeletons. Integrates motor, absolute sensor, local controller and high-speed communication.**
