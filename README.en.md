@@ -145,6 +145,12 @@ GitHub: @enriqueherbertag-lgtm
 
 ---
 
+## Citation
+
+If you use SmartJoint in your research or project, please cite:
+
+Enrique Aguayo H. (2026). SmartJoint: Direct drive intelligent joint (v0.1).
+
 ## License
 
 Copyright © 2026 Enrique Aguayo. All rights reserved.
