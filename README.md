@@ -52,6 +52,19 @@ SmartJoint es abierto, modular y de bajo costo. Un ingeniero con una impresora 3
 | Frecuencia de control | 1 kHz |
 | Refrigeración | Líquida (opcional, hasta 50 W disipados) |
 
+
+## Sistema de medición de posición
+
+SmartJoint utiliza un **sensor inductivo AS5715R** que opera sobre una **rueda fónica conductora mecanizada** acoplada al rotor.
+
+Este principio es ampliamente utilizado en aplicaciones automotrices (sensores de cigüeñal, sistemas ABS, dirección eléctrica), ofreciendo:
+
+- Robustez frente a suciedad, campos magnéticos externos y vibraciones.
+- Resolución de <0.075° y precisión de ±0.1° con una alineación adecuada.
+- Operación absoluta (no requiere homing al encender).
+
+La rueda fónica se mecaniza en aluminio o cobre con tolerancias estándar de la industria automotriz (excentricidad <0.1 mm, concentricidad controlada). El montaje final puede calibrarse en firmware para compensar pequeñas desviaciones mecánicas.
+
 ---
 
 ## Modos de control
