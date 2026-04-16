@@ -3,6 +3,7 @@
 [![Documentación](https://img.shields.io/badge/Documentación-SmartJoint-blue)](./docs/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19609558.svg)](https://doi.org/10.5281/zenodo.19609558)
 [![Asistencia IA](https://img.shields.io/badge/Asistencia%20IA-DeepSeek-brightgreen)](https://deepseek.com)
+[![EN](https://img.shields.io/badge/English-version-blue.svg)](./README.en.md)
 # SmartJoint: Articulación inteligente de accionamiento directo
 
 **Módulo autónomo para robótica, prótesis y exoesqueletos. Integra motor, sensor absoluto, controlador local y comunicación de alta velocidad.**
