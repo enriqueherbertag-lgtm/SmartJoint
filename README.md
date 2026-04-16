@@ -147,8 +147,7 @@ GitHub: @enriqueherbertag-lgtm
 
 Si utilizás SmartJoint en tu investigación o proyecto, por favor citá:
 
-Enrique Aguayo H. (2026). SmartJoint: Articulación inteligente de accionamiento directo (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19609558
-
+Enrique Aguayo H. (2026). SmartJoint: Articulación inteligente de accionamiento directo (v0.1).
 
 ## Licencia
 
