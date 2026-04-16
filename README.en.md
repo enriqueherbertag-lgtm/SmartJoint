@@ -1,8 +1,8 @@
 [![License](https://img.shields.io/badge/License-Copyright%20%28c%29%202026%20Enrique%20Aguayo-red)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Hypothesis%20under%20development-yellow)](https://github.com/enriqueherbertag-lgtm/SmartJoint)
 [![Documentation](https://img.shields.io/badge/Documentation-SmartJoint-blue)](./docs/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19609558.svg)](https://doi.org/10.5281/zenodo.19609558)
 [![AI Assistance](https://img.shields.io/badge/AI%20Assistance-DeepSeek-brightgreen)](https://deepseek.com)
-
 # SmartJoint: Direct drive intelligent joint
 
 **Autonomous module for robotics, prosthetics and exoskeletons. Integrates motor, absolute sensor, local controller and high-speed communication.**
