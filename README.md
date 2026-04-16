@@ -1,8 +1,8 @@
 [![Licencia](https://img.shields.io/badge/Licencia-Copyright%20%28c%29%202026%20Enrique%20Aguayo-red)](LICENSE)
 [![Estado](https://img.shields.io/badge/Estado-Hip%C3%B3tesis%20en%20desarrollo-yellow)](https://github.com/enriqueherbertag-lgtm/SmartJoint)
 [![Documentación](https://img.shields.io/badge/Documentación-SmartJoint-blue)](./docs/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19609558.svg)](https://doi.org/10.5281/zenodo.19609558)
 [![Asistencia IA](https://img.shields.io/badge/Asistencia%20IA-DeepSeek-brightgreen)](https://deepseek.com)
-
 # SmartJoint: Articulación inteligente de accionamiento directo
 
 **Módulo autónomo para robótica, prótesis y exoesqueletos. Integra motor, sensor absoluto, controlador local y comunicación de alta velocidad.**
