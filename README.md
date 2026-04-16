@@ -141,8 +141,14 @@ ORCID: 0009-0004-4615-6825
 GitHub: @enriqueherbertag-lgtm
 
 *Documentación asistida por DeepSeek (IA) en redacción y estructura.*
-
 ---
+
+## Citación
+
+Si utilizás SmartJoint en tu investigación o proyecto, por favor citá:
+
+Enrique Aguayo H. (2026). SmartJoint: Articulación inteligente de accionamiento directo (v0.1). Zenodo. https://doi.org/10.5281/zenodo.19609558
+
 
 ## Licencia
 
