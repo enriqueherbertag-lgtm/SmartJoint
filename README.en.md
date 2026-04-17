@@ -53,10 +53,15 @@ SmartJoint is open, modular and low-cost. An engineer with a 3D printer and elec
 | Control frequency | 1 kHz |
 | Cooling | Optional liquid (peaks up to 50W)* |
 
-*See note on thermal regime below.
+*Note: SmartJoint is optimized for bounded oscillatory motion (typically 40°-180°), not continuous rotation. The 50W and 200W values are short-duration peaks (<5 seconds). In normal use (walking, grasping), average power is 10-30W per joint. CORPUS's 80-120W continuous cooling system is sufficient. See `update.md` for technical details.*
+
+## Conceptual diagram
+
+![SmartJoint conceptual diagram](./docs/media/smartjoint-scheme.png)
+
+*Cutaway conceptual view. Components: liquid cooling channel, rotor with magnets, stator with windings, cable outlet and O-ring seals.*
 
 ---
-
 ## Thermal regime and motion type
 
 **SmartJoint is optimized for bounded oscillatory motion** (typically 40° to 180° of travel), similar to a biological joint (shoulder, elbow, knee). It is not a continuous rotation motor like those used in wheels or conveyor belts.
