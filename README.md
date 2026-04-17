@@ -3,7 +3,7 @@
 [![Documentación](https://img.shields.io/badge/Documentación-SmartJoint-blue)](./docs/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19609558.svg)](https://doi.org/10.5281/zenodo.19609558)
 [![Asistencia IA](https://img.shields.io/badge/Asistencia%20IA-DeepSeek-brightgreen)](https://deepseek.com)
-[![EN](https://img.shields.io/badge/English-version-blue.svg)](./README.en.md)
+
 # SmartJoint: Articulación inteligente de accionamiento directo
 
 **Módulo autónomo para robótica, prótesis y exoesqueletos. Integra motor, sensor absoluto, controlador local y comunicación de alta velocidad.**
@@ -45,14 +45,32 @@ SmartJoint es abierto, modular y de bajo costo. Un ingeniero con una impresora 3
 | Velocidad máxima | 300 rpm |
 | Alimentación | 48V DC |
 | Consumo en reposo | 5 W |
-| Consumo en movimiento | 50-200 W |
+| Consumo en movimiento | 50-200 W (pico), 10-30 W (media en uso oscilante)* |
 | Precisión de posición | ±0.1 grados |
 | Resolución del sensor | <0.075 grados |
 | Rango del sensor | 360° absoluto |
 | Comunicación | UART sobre fibra óptica o RS-485 |
 | Frecuencia de control | 1 kHz |
-| Refrigeración | Líquida (opcional, hasta 50 W disipados) |
+| Refrigeración | Líquida opcional (picos de hasta 50W)* |
 
+*Ver nota sobre régimen térmico más abajo.
+
+---
+
+## Régimen térmico y tipo de movimiento
+
+**SmartJoint está optimizado para movimiento oscilante acotado** (típicamente 40° a 180° de recorrido), similar a una articulación biológica (hombro, codo, rodilla). No es un motor de rotación continua como los de una rueda o una correa transportadora.
+
+**Consecuencias para la refrigeración:**
+
+- La potencia de 50W por articulación es un **pico de corta duración** (menos de 5 segundos), alcanzable solo en esfuerzos máximos (ej. levantar 50kg con una articulación).
+- En uso típico (caminar, agarrar, gestos), la potencia media es de **10 a 30W por articulación**.
+- La refrigeración líquida opcional **solo se activa durante picos muy cortos**. El resto del tiempo, la disipación es pasiva.
+- Para aplicaciones de **rotación continua** (ej. rueda de robot), se recomienda refrigeración líquida activa continua o reducir el par máximo al 50%.
+
+**En resumen:** SmartJoint no necesita un sistema de refrigeración masivo porque su uso natural es intermitente y oscilante, no continuo.
+
+---
 
 ## Sistema de medición de posición
 
@@ -142,13 +160,8 @@ ORCID: 0009-0004-4615-6825
 GitHub: @enriqueherbertag-lgtm
 
 *Documentación asistida por DeepSeek (IA) en redacción y estructura.*
+
 ---
-
-## Citación
-
-Si utilizás SmartJoint en tu investigación o proyecto, por favor citá:
-
-Enrique Aguayo H. (2026). SmartJoint: Articulación inteligente de accionamiento directo (v0.1).
 
 ## Licencia
 
