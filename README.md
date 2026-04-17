@@ -53,7 +53,14 @@ SmartJoint es abierto, modular y de bajo costo. Un ingeniero con una impresora 3
 | Frecuencia de control | 1 kHz |
 | Refrigeración | Líquida opcional (picos de hasta 50W)* |
 
-*Ver nota sobre régimen térmico más abajo.
+*Nota: SmartJoint está optimizado para movimiento oscilante acotado (típicamente 40°-180°), no para rotación continua. Los valores de 50W y 200W son picos de corta duración (<5 segundos). En uso normal (caminar, agarrar), la potencia media es de 10-30W por articulación. El sistema de refrigeración de 80-120W continuos de CORPUS es suficiente. Ver `update.md` para detalles técnicos.*
+
+## Esquema conceptual
+
+![Esquema conceptual de SmartJoint](./docs/media/smartjoint-scheme.png)
+
+*Vista conceptual en corte. Componentes: canal de refrigeración líquida, rotor con imanes, estator con bobinados, salida de cables y sellos O-ring.*
+
 
 ---
 
