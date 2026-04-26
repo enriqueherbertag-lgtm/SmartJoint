@@ -36,6 +36,7 @@ SmartJoint es abierto, modular y de bajo costo. Un ingeniero con una impresora 3
 
 ## Especificaciones técnicas
 
+| **Aerospace** | Flaps, slats, control surfaces on hybrid aircraft | Low weight, fiber optic (EMI‑immune), zero backlash, enough torque |
 | Parámetro | Valor |
 |---|---|
 | Diámetro | 60 mm |
