@@ -35,6 +35,7 @@ SmartJoint is **open, modular and cost‑effective**. An engineer with a 3D prin
 
 ## Industrial applications
 
+| **Aerospace** | Flaps, slats, control surfaces on hybrid aircraft | Low weight, fiber optic (EMI‑immune), zero backlash, enough torque |
 | Industry | Example | Why SmartJoint |
 |:---|:---|:---|
 | **Robotics** | Manipulator arms, mobile robots, drones | Low weight, high torque, local control |
